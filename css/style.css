@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 body {
   margin: 0;
   padding: 0;
@@ -70,5 +71,35 @@ header .nav .navigation-group .navigation-item a {
   font-size: 50px;
   font-weight: 600;
   border: 2px solid white;
+}
+
+.contents {
+  margin-left: 205px;
+  margin-right: 205px;
+}
+
+#About {
+  margin-top: 100px;
+}
+
+#About h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#About .about-h2 {
+  margin-top: 72px;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#About .about-message {
+  margin-top: 42px;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
