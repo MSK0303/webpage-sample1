@@ -102,4 +102,75 @@ header .nav .navigation-group .navigation-item a {
   font-size: 14px;
   font-weight: bold;
 }
+
+#Service {
+  margin-top: 150px;
+}
+
+#Service h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#Service .service-item1 {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Service .service-item1 .service-item1-box {
+  margin-left: 70px;
+}
+
+#Service .service-item1 .service-item1-box .service-item1-h2 {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#Service .service-item1 .service-item1-box .service-item1-message {
+  margin-top: 41px;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#Service .service-item2 {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Service .service-item2 .service-item2-box .service-item2-h2 {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#Service .service-item2 .service-item2-box .service-item2-message {
+  margin-top: 41px;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#Service .service-item2 img {
+  margin-left: 70px;
+}
 /*# sourceMappingURL=style.css.map */
