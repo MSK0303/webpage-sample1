@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 74px;
+    background-color: #1B1310;
+    align-items: center;
+
+    & .site-title {
+        font-family: "Roboto";
+        margin-left: 120px;
+        font-size: 26px;
+        font-weight: 600;
+        margin-right: auto;
+        color: white;
+    }
+
+
+    & .nav {
+        & .navigation-group {
+            padding: 0px;
+            & .navigation-item {
+                list-style: none;
+                display: inline-block;
+                margin-right: 54px;
+
+                &:last-child {
+                    margin-right: 120px;
+                }
+
+                & a {
+                    font-family: "Roboto";
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+#FV {
+
+}
+
+#About {
+
+}
+
+#Service {
+
+}
+
+#News {
+
+}
+
+#Contact {
+
+}
+
+#footer {
+
+}
+
