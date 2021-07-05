@@ -155,11 +155,35 @@ header {
 }
 
 #News {
+    margin-top: 150px;
+    & h2 {
+        font-family: "Roboto";
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+    }
+    & .news-conntents {
+        display: flex;
+        justify-content: space-between;
+        & .news-item-block {
+            width: 320px;
+            box-shadow: 0 2px 5px #ccc;
+            & img {
+                vertical-align: bottom; //画像下の余白を取る
+            }
+
+            & p {
+                padding: 25px 33px;
+                font-size: 13px;
+                font-family: 'Hiragino Kaku Gothic ProN';
+            }
+        }
+    }
 
 }
 
 #Contact {
-
+    margin-top: 150px;
 }
 
 #footer {
