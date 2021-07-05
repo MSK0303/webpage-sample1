@@ -173,4 +173,44 @@ header .nav .navigation-group .navigation-item a {
 #Service .service-item2 img {
   margin-left: 70px;
 }
+
+#News {
+  margin-top: 150px;
+}
+
+#News h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#News .news-conntents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#News .news-conntents .news-item-block {
+  width: 320px;
+  -webkit-box-shadow: 0 2px 5px #ccc;
+          box-shadow: 0 2px 5px #ccc;
+}
+
+#News .news-conntents .news-item-block img {
+  vertical-align: bottom;
+}
+
+#News .news-conntents .news-item-block p {
+  padding: 25px 33px;
+  font-size: 13px;
+  font-family: 'Hiragino Kaku Gothic ProN';
+}
+
+#Contact {
+  margin-top: 150px;
+}
 /*# sourceMappingURL=style.css.map */
