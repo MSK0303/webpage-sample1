@@ -229,5 +229,11 @@ header {
     height: 79px;
     background-color: #1B1310;
     margin-top: 50px;
+
+    & p {
+        color: white;
+        text-align: center;
+        line-height: 79px;
+    }
 }
 
