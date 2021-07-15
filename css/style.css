@@ -260,4 +260,10 @@ header .nav .navigation-group .navigation-item a {
   background-color: #1B1310;
   margin-top: 50px;
 }
+
+#footer p {
+  color: white;
+  text-align: center;
+  line-height: 79px;
+}
 /*# sourceMappingURL=style.css.map */
