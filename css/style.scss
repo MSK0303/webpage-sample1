@@ -184,9 +184,50 @@ header {
 
 #Contact {
     margin-top: 150px;
+    & h2 {
+        font-family: "Roboto";
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    & .contact-form {
+        margin: 46px 165px 0px 165px;
+
+        & .contact-form-item {
+            margin-top: 22px;
+            
+            & input {
+                width: 100%;
+            }
+
+            & textarea {
+                width: 100%;
+                height: 171px;
+            }
+        }
+
+        & .contact-form-submit {
+            text-align: center;
+            margin-top: 50px;
+            & button {
+                text-align: center;
+                width: 235px;
+                height: 59px;
+                background-color: #1B1310;
+                color: white;
+                border-radius: 100vh;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
 }
 
 #footer {
-
+    width: 100%;
+    height: 79px;
+    background-color: #1B1310;
+    margin-top: 50px;
 }
 
