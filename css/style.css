@@ -74,8 +74,9 @@ header .nav .navigation-group .navigation-item a {
 }
 
 .contents {
-  margin-left: 205px;
-  margin-right: 205px;
+  width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #About {

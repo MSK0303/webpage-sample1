@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
+//レスポンシブ対応
+//
+
 body {
     margin: 0;
     padding: 0;
@@ -67,8 +70,11 @@ header {
 }
 
 .contents {
-    margin-left: 205px;
-    margin-right: 205px;
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    // margin-left: 205px;
+    // margin-right: 205px;
 }
 
 #About {
