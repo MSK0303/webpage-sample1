@@ -25,6 +25,12 @@ header .site-title {
   color: white;
 }
 
+@media screen and (max-width: 768px) {
+  header .site-title {
+    margin-left: 15px;
+  }
+}
+
 header .nav .navigation-group {
   padding: 0px;
 }
@@ -64,6 +70,13 @@ header .nav .navigation-group .navigation-item a {
           align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  #FV {
+    background-image: url("../public/img/fv-bgi_sp@2x.jpg");
+    height: 590px;
+  }
+}
+
 #FV .fv-text {
   padding: 42px 34px;
   font-family: "Roboto";
@@ -77,6 +90,18 @@ header .nav .navigation-group .navigation-item a {
   width: 1030px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 1030px) {
+  .contents {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contents {
+    width: 375px;
+  }
 }
 
 #About {
