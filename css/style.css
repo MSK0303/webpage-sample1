@@ -145,6 +145,10 @@ header .nav .navigation-group .navigation-item a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -153,8 +157,20 @@ header .nav .navigation-group .navigation-item a {
           align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  #Service .service-item1 {
+    display: block;
+  }
+}
+
 #Service .service-item1 .service-item1-box {
   margin-left: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  #Service .service-item1 .service-item1-box {
+    margin-left: 0px;
+  }
 }
 
 #Service .service-item1 .service-item1-box .service-item1-h2 {
@@ -170,6 +186,14 @@ header .nav .navigation-group .navigation-item a {
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  #Service .service-item1 img {
+    margin-left: 15px;
+    width: 345px;
+    height: 150px;
+  }
+}
+
 #Service .service-item2 {
   margin-top: 70px;
   display: -webkit-box;
@@ -181,6 +205,12 @@ header .nav .navigation-group .navigation-item a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  #Service .service-item2 {
+    display: block;
+  }
 }
 
 #Service .service-item2 .service-item2-box .service-item2-h2 {
@@ -198,6 +228,14 @@ header .nav .navigation-group .navigation-item a {
 
 #Service .service-item2 img {
   margin-left: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  #Service .service-item2 img {
+    margin-left: 15px;
+    width: 345px;
+    height: 150px;
+  }
 }
 
 #News {

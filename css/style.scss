@@ -142,12 +142,20 @@ header {
     & .service-item1 {
         margin-top: 70px;
         display: flex;
+        flex-flow: row-reverse;
         justify-content: center;
         align-items: center;
+
+        @include mobile {
+            display: block;
+        }
 
         & .service-item1-box
         {
             margin-left: 70px;
+            @include mobile {
+                margin-left: 0px;
+            }
             & .service-item1-h2 {
                 font-family: 'Noto Sans Japanese', sans-serif; 
                 font-size: 24px;
@@ -160,12 +168,24 @@ header {
                 font-weight: bold;
             }
         }
+
+        & img {
+            @include mobile {
+                margin-left: 15px;
+                width: 345px;
+                height: 150px;
+            }
+        }
     }
     & .service-item2 {
         margin-top: 70px;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @include mobile {
+            display: block;
+        }
 
         & .service-item2-box
         {
@@ -184,6 +204,12 @@ header {
 
         & img {
             margin-left: 70px;
+
+            @include mobile {
+                margin-left: 15px;
+                width: 345px;
+                height: 150px;
+            }
         }
     }
 }
