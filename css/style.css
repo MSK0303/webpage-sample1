@@ -295,6 +295,12 @@ header .nav .navigation-group .navigation-item a {
   margin: 46px 165px 0px 165px;
 }
 
+@media screen and (max-width: 768px) {
+  #Contact .contact-form {
+    margin: 46px 15px 0px 15px;
+  }
+}
+
 #Contact .contact-form .contact-form-item {
   margin-top: 22px;
 }

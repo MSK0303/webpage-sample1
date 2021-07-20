@@ -259,6 +259,10 @@ header {
     & .contact-form {
         margin: 46px 165px 0px 165px;
 
+        @include mobile {
+            margin: 46px 15px 0px 15px;
+        }
+
         & .contact-form-item {
             margin-top: 22px;
             
