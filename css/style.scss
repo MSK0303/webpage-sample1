@@ -225,6 +225,11 @@ header {
     & .news-conntents {
         display: flex;
         justify-content: space-between;
+
+        @include mobile {
+           display: block;
+        }
+
         & .news-item-block {
             width: 320px;
             box-shadow: 0 2px 5px #ccc;

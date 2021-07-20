@@ -258,6 +258,12 @@ header .nav .navigation-group .navigation-item a {
           justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+  #News .news-conntents {
+    display: block;
+  }
+}
+
 #News .news-conntents .news-item-block {
   width: 320px;
   -webkit-box-shadow: 0 2px 5px #ccc;
