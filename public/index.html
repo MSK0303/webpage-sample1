@@ -11,13 +11,20 @@
     <!--header-->
     <header>
         <h1 class="site-title">クリ★スタ</h1>
-        <nav class="nav">
-            <ul class="navigation-group">
-                <li class="navigation-item"><a href="#About">About</a></li>
-                <li class="navigation-item"><a href="#Service">Service</a></li>
-                <li class="navigation-item"><a href="#News">Contents</a></li>
-            </ul>
-        </nav>
+        <div id="hamburger">
+            <p class="nav-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </p>
+            <nav id="nav">
+                <ul class="navigation-group">
+                    <li class="navigation-item"><a href="#About">About</a></li>
+                    <li class="navigation-item"><a href="#Service">Service</a></li>
+                    <li class="navigation-item"><a href="#News">Contents</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!--FV-->
     <section id="FV">
@@ -97,5 +104,22 @@
     <section id="footer">
         <p>©︎crest.design all rights reserved</p>
     </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function(){
+            $('.nav-btn').on("click",function(){
+                $(this).toggleClass('open');
+                $('#nav').toggleClass('open');
+            });
+        });
+
+        $(function(){
+            $('.navigation-group li a').on("click",
+            function(){
+                console.log("click");
+                $('#nav').toggleClass('open');
+            });
+        });
+    </script>
 </body>
 </html>
